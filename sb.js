@@ -1,6 +1,6 @@
-function myAnimal() {
-  var animal = 'dog'
-  return animal
-}
+var funkyFunction = function() {
 
-console.log(myAnimal())
+  return function() {
+    return "FUNKY!"
+  }
+}
