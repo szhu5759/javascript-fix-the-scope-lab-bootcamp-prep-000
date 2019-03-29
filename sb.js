@@ -5,3 +5,5 @@ var funkyFunction = function() {
   }
 }
 var theFunk = "FUNKY!"
+
+console.log(funkyFunction)
