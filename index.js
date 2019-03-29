@@ -1,11 +1,11 @@
 function myAnimal() {
   var animal = 'dog'
-  return animal
+  console.log(animal)
 }
 
 function yourAnimal() {
   var animal = 'cat'
-  return animal
+  console.log(animal)
 }
 
 function add2(n) {
