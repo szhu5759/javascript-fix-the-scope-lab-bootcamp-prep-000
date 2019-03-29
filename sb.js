@@ -3,4 +3,4 @@ function myAnimal() {
   return animal
 }
 
-myAnimal()
+console.log(myAnimal())
