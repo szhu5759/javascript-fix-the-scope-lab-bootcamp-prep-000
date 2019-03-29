@@ -1,12 +1,17 @@
 function myAnimal() {
   var animal = 'dog'
-  console.log(animal)
+  return animal
 }
+
+var mine = myAnimal()
+console.log(mine)
 
 function yourAnimal() {
   var animal = 'cat'
-  console.log(animal)
+  return animal
 }
+var yours = yourAnimal()
+console.log(yours)
 
 function add2(n) {
   return n + two
